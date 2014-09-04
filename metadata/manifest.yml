@@ -1,5 +1,5 @@
 ---
-Name: artifactory
+Name: artifactory & jenkins
 Vendor: JFrog Inc
 Cartridge-Short-Name: ARTIFACTORY
 Display-Name: Artifactory Repository Manager
@@ -10,7 +10,7 @@ Description: Meet Artifactory, the world’s most advanced repository manager. A
 Version: '1'
 License: MIT license
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: andershedstrom
+Cartridge-Vendor: test
 Categories:
 - web_framework
 - instant_app
