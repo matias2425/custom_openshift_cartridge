@@ -1,0 +1,39 @@
+---
+Name: artifactory
+Vendor: JFrog Inc
+Cartridge-Short-Name: ARTIFACTORY
+Display-Name: Artifactory Repository Manager
+Description: Meet Artifactory, the world’s most advanced repository manager. Artifactory
+  offers powerful enterprise features and fine-grained permission control behind a sleek
+  and easy-to-use UI. See the Artifactory info page for more. Based on Artifactory 3.2.1.1
+  1.509+
+Version: '1'
+License: MIT license
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: andershedstrom
+Categories:
+- web_framework
+- instant_app
+- domain_scope
+Website: http://www.jfrog.com/
+Cart-Data:
+- Key: ARTIFACTORY_URL
+  Type: environment
+  Description: URL for the artifactory server
+Provides:
+- artifactory
+Publishes:
+Endpoints:
+- Private-IP-Name: IP
+  Private-Port-Name: PORT
+  Private-Port: 8081
+  Public-Port-Name: PROXY_PORT
+  Protocols:
+  - http
+  Mappings:
+  - Frontend: ''
+    Backend: ''
+    Options: {tohttps: true}
+Scaling:
+  Min: 1
+  Max: 1
