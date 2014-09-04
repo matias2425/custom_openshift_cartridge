@@ -1,7 +1,7 @@
 ---
 Name: artifactory-jenkins
 Vendor: JFrog Inc
-Cartridge-Short-Name: ARTIFACTORY-JENKINS
+Cartridge-Short-Name: ARTIFACTJENKINS
 Display-Name: Artifactory Repository Manager
 Description: Meet Artifactory, the world’s most advanced repository manager. Artifactory
   offers powerful enterprise features and fine-grained permission control behind a sleek
